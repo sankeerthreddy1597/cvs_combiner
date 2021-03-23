@@ -1,3 +1,9 @@
+# Python Run Guide
+The cvs combiner was implemented in python. To run the file navigate to the files location and type in the following command
+```
+$  python3 cvs-combiner.py ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv
+```
+There are two different python files attached where I implemented using two different approaches. The first one will be more useful to lasrger file sizes. An example cvs file has been attached to show the output after running the code from the py files.
 # CSV Combiner
 
 Write a command line program that takes several CSV files as arguments. Each CSV
