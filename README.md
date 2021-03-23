@@ -3,7 +3,7 @@ The cvs combiner was implemented in python. To run the file navigate to the file
 ```
 $  python3 cvs-combiner.py ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv
 ```
-There are two different python files attached where I implemented using two different approaches. The first one will be more useful to lasrger file sizes. An example cvs file has been attached to show the output after running the code from the py files.
+The second and third arguments can be replaced with other CSV files and with any number of arguments (To acomodate multiple csv files). There are two different python files attached where I implemented using two different approaches. The first one will be more useful to lasrger file sizes. An example cvs file has been attached to show the output after running the code from the py files.
 # CSV Combiner
 
 Write a command line program that takes several CSV files as arguments. Each CSV
